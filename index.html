@@ -112,7 +112,8 @@
 						type="video/mp4"
 						loop
 						class="game-clip"
-						controls
+						id="videoId"
+						ondblclick="enterFullScreen('videoId')"
 						muted
 					></video>
 					<div class="name-of-game">Snake Game</div>
@@ -164,7 +165,6 @@
 						type="video/mp4"
 						loop
 						class="game-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-game">Covid Fighter</div>
@@ -212,7 +212,6 @@
 						type="video/mp4"
 						loop
 						class="game-clip"
-						controls
 						muted
 					></video>
 
@@ -263,7 +262,6 @@
 						type="video/mp4"
 						loop
 						class="game-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-game">Interactive Mario Platformer</div>
@@ -281,7 +279,6 @@
 						type="video/mp4"
 						loop
 						class="game-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-game">Sudoku</div>
@@ -310,7 +307,6 @@
 						type="video/mp4"
 						loop
 						class="project-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-project">travel_plan</div>
@@ -327,7 +323,6 @@
 						type="video/mp4"
 						loop
 						class="project-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-project">splitwise</div>
@@ -342,7 +337,6 @@
 						type="video/mp4"
 						loop
 						class="project-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-project">whatsapp_chatlist</div>
@@ -357,7 +351,6 @@
 						type="video/mp4"
 						loop
 						class="project-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-project">text_editor</div>
@@ -375,7 +368,6 @@
 						type="video/mp4"
 						loop
 						class="project-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-project">file_zipper</div>
@@ -404,7 +396,6 @@
 						type="video/mp4"
 						loop
 						class="project-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-project">chatbot</div>
@@ -419,7 +410,6 @@
 						type="video/mp4"
 						loop
 						class="project-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-project">photo_editor</div>
@@ -434,7 +424,6 @@
 						type="video/mp4"
 						loop
 						class="project-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-project">contact_list_search</div>
@@ -449,7 +438,6 @@
 						type="video/mp4"
 						loop
 						class="project-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-project">jump_froggy</div>
@@ -469,7 +457,6 @@
 						type="video/mp4"
 						loop
 						class="project-clip"
-						controls
 						muted
 					></video>
 					<div class="name-of-project">mario</div>
@@ -487,7 +474,12 @@
 				<li></li>
 			</ul>
 		</div>
-
 		<script src="./script.js"></script>
+		<script>
+			function enterFullScreen(elementId) {
+				var element = document.getElementById(elementId);
+				element.webkitRequestFullScreen();
+			}
+		</script>
 	</body>
 </html>
