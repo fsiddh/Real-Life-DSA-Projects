@@ -69,7 +69,7 @@ html {
 }
 .section-2 {
 	height: 5%;
-	border-top: 3px solid rgba(255, 255, 255, 0.096);
+	border-top: 5px solid rgba(255, 255, 255, 0.096);
 	padding: 1rem;
 	border-radius: 3rem;
 	/* width: 52rem; */
