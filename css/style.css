@@ -58,7 +58,7 @@ html {
 	align-items: flex-end;
 	height: 10%;
 	font-size: 15rem;
-	border: 2px solid rgba(255, 255, 255, 0.13);
+	/* border: 2px solid rgba(255, 255, 255, 0.13); */
 	font-family: "Amatic SC", cursive;
 	/* background-color: rgba(182, 80, 80, 0.308); */
 	border-radius: 1.5rem;
@@ -69,8 +69,11 @@ html {
 }
 .section-2 {
 	height: 5%;
-	/* border: 1px solid white; */
-	width: 53rem;
+	border-top: 3px solid rgba(255, 255, 255, 0.096);
+	padding: 1rem;
+	border-radius: 3rem;
+	/* width: 52rem; */
+	width: 55rem;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -78,9 +81,11 @@ html {
 	text-align: right;
 	/* float: right; */
 	/* bottom: 2rem; */
-	margin-right: 6rem;
+	margin-right: 5.3rem;
 	font-family: "Josefin Sans", sans-serif;
-	color: rgba(0, 0, 0, 0.493);
+	/* color: rgba(0, 0, 0, 0.493); */
+	color: rgba(245, 245, 245, 0.24);
+	/* z-index: 2; */
 }
 /* ================= Container One END ==================================================== */
 
