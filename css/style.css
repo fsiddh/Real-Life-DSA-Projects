@@ -6,6 +6,7 @@
 }
 
 body {
+	/* overflow: hidden; */
 	font-family: "Josefin Sans", sans-serif;
 }
 
@@ -190,13 +191,12 @@ html {
 	/* border: 1px solid yellow; */
 }
 
-.four{
+.four {
 	display: flex;
 	flex-direction: column;
 	/* justify-content: center; */
 	align-items: center;
 	/* border: 1px solid yellow; */
-
 }
 
 .project-title {
@@ -224,7 +224,6 @@ html {
 	/* position: relative;
 	top: 1.5rem; */
 }
-
 
 .project {
 	height: 100%;
@@ -272,7 +271,7 @@ html {
 	position: relative;
 	left: 1rem;
 	bottom: 1rem;
-	text-align: left;    
+	text-align: left;
 	/* font-family: "Josefin Sans", sans-serif; */
 	/* border: 1px solid whitesmoke; */
 	/* text-align: center; */
