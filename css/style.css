@@ -11,6 +11,10 @@ body {
 
 a {
 	color: black;
+	/* border: 1px solid whitesmoke; */
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
 }
 
 html {
@@ -183,7 +187,16 @@ html {
 	flex-direction: column;
 	/* justify-content: center; */
 	align-items: center;
-	/* border: 1px solid white; */
+	/* border: 1px solid yellow; */
+}
+
+.four{
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	/* border: 1px solid yellow; */
+
 }
 
 .project-title {
@@ -203,21 +216,22 @@ html {
 }
 
 .projects {
+	/* border: 2px solid rgb(0, 0, 0); */
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 70%;
-	position: relative;
-	top: 1.5rem;
+	height: 100%;
+	/* position: relative;
+	top: 1.5rem; */
 }
 
 
 .project {
-	height: 95%;
+	height: 100%;
 	width: 20%;
-	position: relative;
-	top: 1rem;
-	/* border: 1px solid white; */
+	/* position: relative;
+	top: 1rem; */
+	/* border: 1px solid black; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -273,8 +287,8 @@ html {
 } */
 .project-separator {
 	position: relative;
-	top: 2rem;
-	height: 100%;
+	bottom: 2rem;
+	height: 80%;
 	width: 0.1rem;
 	background-color: rgba(255, 255, 255, 0.144);
 }
